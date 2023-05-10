@@ -3,7 +3,7 @@ import folium
 
 response = requests.get("http://ckan2.multimediagdansk.pl/gpsPositions?v=2")
 position = response.json()
-
+# zmiany karola
 m = folium.Map(location=[54.352025, 18.646638], zoom_start=13)
 
 for bus in position['vehicles']:
