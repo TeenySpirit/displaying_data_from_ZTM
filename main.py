@@ -1,6 +1,5 @@
 import requests
 import folium
-from IPython.display import display
 
 response = requests.get("http://ckan2.multimediagdansk.pl/gpsPositions?v=2")
 position = response.json()
